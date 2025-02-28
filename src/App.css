@@ -1,0 +1,22 @@
+#root {
+  width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Bendra visam puslapiui */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Šviesi tema (default) */
+body.light {
+  background-color: azure;
+  color: black;
+}
+
+/* Tamsi tema */
+body.dark {
+  background-color: #121212;
+  color: white;
+}

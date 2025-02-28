@@ -1,0 +1,43 @@
+.eventCalendarContainer {
+  max-width: 1280px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.eventCard {
+  width: 250px; /* Fiksuotas kortelės plotis */
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.eventImage {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.eventDate {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.eventLocation {
+  color: #555;
+}
